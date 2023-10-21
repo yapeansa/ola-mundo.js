@@ -4,6 +4,7 @@ import Sobre from "./paginas/sobre"
 import Menu from "./components/Menu"
 
 function AppRoutes() {
+    // Comentário javascript
     return (
         <BrowserRouter>
             <Menu />
