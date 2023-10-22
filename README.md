@@ -1,3 +1,18 @@
 # Olá, Mundo
 
-Descrição completa em breve...
+Na rota `/`, a estrutura a ser renderizada será:
+
+```
+<PaginaPadrao>
+    <Inicio />
+</PaginaPadrao>
+```
+
+Já na rota `/sobre` a estrutura a ser rederizada será:
+
+```
+<PaginaPadrao>
+    <Sobre />
+</PaginaPadrao>
+```
+

@@ -3,10 +3,8 @@ import Post from "../../components/Post"
 import styles from "./Inicio.module.css"
 import posts from "@/json/posts.json"
 
-function Inicio() {
+const Inicio = () => {
     return (
-        <main>
-            <Banner />
             <ul className={styles.posts}>
                 {posts.map(post =>
                     <li key={post.id}>
@@ -14,7 +12,6 @@ function Inicio() {
                     </li>
                 )}
             </ul>
-        </main>
     )
 }
 
