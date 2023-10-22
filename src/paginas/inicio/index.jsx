@@ -1,4 +1,3 @@
-import Banner from "../../components/Banner"
 import Post from "../../components/Post"
 import styles from "./Inicio.module.css"
 import posts from "@/json/posts.json"

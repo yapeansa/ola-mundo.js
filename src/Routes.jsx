@@ -11,8 +11,8 @@ const AppRoutes = () => {
             <Menu />
             <Routes>
                 <Route path="/" element={<PaginaPadrao />}>
-                    <Route path="/" element={<Inicio />} />
-                    <Route path="/sobre" element={<Sobre />} />
+                    <Route index element={<Inicio />} />
+                    <Route path="sobre" element={<Sobre />} />
                 </Route>
                 <Route path="*" element={<div>Página não encontrada.</div>} />
             </Routes>
