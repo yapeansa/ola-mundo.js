@@ -1,5 +1,5 @@
 <div align="center">
-    <h1>PROJETO `OLÁ MUNDO`</h1>
+    <h1>PROJETO OLÁ MUNDO</h1>
 </div>
 
 O projeto `Olá, Mundo!` é uma plataforma de artigos desenvolvida para contar um pouco sobre quem sou eu e praticar um importante conceito em React, o `React-Router-DOM`.
