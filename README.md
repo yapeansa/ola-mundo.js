@@ -13,10 +13,8 @@ O projeto `Olá, Mundo!` é uma plataforma de artigos desenvolvida para contar u
 
 ## IMAGEM DO PROJETO
 
-![Olá mundo Preview](/public/preview.png).
+![Olá mundo Preview](/public/preview.png)
 
 ## ACESSO AO PROJETO
 
 Você pode acessar o projeto através do link [https://olamundopontojs.vercel.app](https://olamundopontojs.vercel.app).
- 
- Fim
