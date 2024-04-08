@@ -1,5 +1,5 @@
-import { Outlet } from "react-router-dom"
-import Banner from "../Banner"
+import { Outlet } from "react-router-dom";
+import Banner from "../Banner";
 
 const PaginaPadrao = ({ children }) => {
     return (
@@ -8,7 +8,7 @@ const PaginaPadrao = ({ children }) => {
             <Outlet />
             {children}
         </main>
-    )
-}
+    );
+};
 
-export default PaginaPadrao
+export default PaginaPadrao;

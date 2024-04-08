@@ -1,6 +1,6 @@
-import PostCard from "../../components/PostCard"
-import styles from "./Inicio.module.css"
-import posts from "@/json/posts.json"
+import PostCard from "../../components/PostCard";
+import styles from "./Inicio.module.css";
+import posts from "@/json/posts.json";
 
 const Inicio = () => {
     return (
@@ -11,7 +11,7 @@ const Inicio = () => {
                     </li>
                 )}
             </ul>
-    )
-}
+    );
+};
 
-export default Inicio
+export default Inicio;
