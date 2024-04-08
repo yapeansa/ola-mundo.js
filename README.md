@@ -13,7 +13,7 @@ O projeto `Olá, Mundo!` é uma plataforma de artigos desenvolvida para contar u
 
 ## IMAGEM DO PROJETO
 
-![Olá mundo Preview](/public/preview.png)
+![Olá mundo Preview](/public/preview.png)...
 
 ## ACESSO AO PROJETO
 
