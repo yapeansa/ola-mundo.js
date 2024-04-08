@@ -1,7 +1,7 @@
-import PostModelo from "../../components/PostModelo"
-import fotoCapa from '@/assets/sobre_mim_capa.jpg'
-import styles from './Sobre.module.css'
-import fotoSobreMim from '@/assets/sobre_mim_foto.jpg'
+import PostModelo from "../../components/PostModelo";
+import fotoCapa from '@/assets/sobre_mim_capa.jpg';
+import styles from './Sobre.module.css';
+import fotoSobreMim from '@/assets/sobre_mim_foto.jpg';
 
 const Sobre = () => {
     return (
@@ -13,7 +13,7 @@ const Sobre = () => {
             <p className={styles.paragrafo}>Minha monografia foi desenvolvida na área de Lógica e Teoria dos Conjuntos, na qual estabeleço a equivalência entre o Axioma da Escolha, o Lema de Zorn e o Teorema de Zermelo e apresento algumas aplicações em áreas de estudo da matemática como, por exemplo, Álgebra e Análise.</p>
             <p className={styles.paragrafo}>Atualmente, no mestrado, tenho estudado o recente conceito de álgebras zpd/zLpd, isto é, álgebras "zero product determined" (respectivamente, "zero Lie product determined"). Venho pesquisando sobre exemplos e não-exemplos destas álgebras tanto no contexto algébrico quanto no contexto analítico (álgebras de Banach) além de também trabalhar com aplicações deste conceito.</p>
         </PostModelo>
-    )
-}
+    );
+};
 
-export default Sobre
+export default Sobre;

@@ -1,8 +1,8 @@
-import styles from "./Banner.module.css"
-import circuloColorido from "@/assets/circulo_colorido.png"
-import minhaFoto from "@/assets/minha_foto.jpg"
+import styles from "./Banner.module.css";
+import circuloColorido from "@/assets/circulo_colorido.png";
+import minhaFoto from "@/assets/minha_foto.jpg";
 
-function Banner() {
+const Banner = () => {
     return (
         <div className={styles.banner}>
             <div className={styles.apresentacao}>
@@ -26,7 +26,7 @@ function Banner() {
                 />
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Banner
+export default Banner;

@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom"
-import styles from "./Post.module.css"
-import BotaoPrincipal from "../BotaoPrincipal"
+import { Link } from "react-router-dom";
+import styles from "./Post.module.css";
+import BotaoPrincipal from "../BotaoPrincipal";
 
 const PostCard = ({ post }) => {
     return (
@@ -13,7 +13,7 @@ const PostCard = ({ post }) => {
                 </BotaoPrincipal>
             </div>
         </Link>
-    )
-}
+    );
+};
 
-export default PostCard
+export default PostCard;

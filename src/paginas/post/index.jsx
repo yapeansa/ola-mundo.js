@@ -1,26 +1,26 @@
-import { useParams } from "react-router-dom"
-import posts from '@/json/posts.json'
-import PostModelo from "@/components/PostModelo"
-import ReactMarkdown from 'react-markdown'
-import './Post.css'
-import styles from './Post.module.css'
-import NotFound from '../notfound'
-import PaginaPadrao from "../../components/PaginaPadrao"
-import PostCard from "../../components/PostCard"
+import { useParams } from "react-router-dom";
+import posts from '@/json/posts.json';
+import PostModelo from "@/components/PostModelo";
+import ReactMarkdown from 'react-markdown';
+import './Post.css';
+import styles from './Post.module.css';
+import NotFound from '../notfound';
+import PaginaPadrao from "../../components/PaginaPadrao";
+import PostCard from "../../components/PostCard";
 
-export default function Post() {
+const Post = () => {
 
-    const parametro = useParams()
-    const post = posts.find((post) => post.id === Number(parametro.id))
+    const parametro = useParams();
+    const post = posts.find((post) => post.id === Number(parametro.id));
 
     if (!post) {
-        return <NotFound />
+        return <NotFound />;
     }
 
     const postsRecomendados = posts
         .filter((post) => post.id !== Number(parametro.id))
         .sort((a, b) => b.id - a.id)
-        .slice(0, 4)
+        .slice(0, 4);
 
     return (
         <PaginaPadrao>
@@ -47,5 +47,7 @@ export default function Post() {
                 </div>
             </PostModelo>
         </PaginaPadrao>
-    )
-}
+    );
+};
+
+export default Post;

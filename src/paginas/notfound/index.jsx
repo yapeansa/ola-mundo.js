@@ -1,11 +1,11 @@
-import styles from './notfound.module.css'
-import erro404 from '@/assets/erro_404.png'
-import BotaoPrincipal from '@/components/BotaoPrincipal'
-import { useNavigate } from 'react-router-dom'
+import styles from './notfound.module.css';
+import erro404 from '@/assets/erro_404.png';
+import BotaoPrincipal from '@/components/BotaoPrincipal';
+import { useNavigate } from 'react-router-dom';
 
-export default function NotFound() {
+const NotFound = () => {
 
-    const navegar = useNavigate()
+    const navegar = useNavigate();
 
     return (
         <>
@@ -34,5 +34,7 @@ export default function NotFound() {
             </div>
             <div className={styles.espacoEmBranco}></div>
         </>
-    )
-}
+    );
+};
+
+export default NotFound;

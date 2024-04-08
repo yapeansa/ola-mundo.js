@@ -1,18 +1,20 @@
-# Olá, Mundo
+<div align="center">
+    <h1>PROJETO `OLÁ MUNDO`</h1>
+</div>
 
-Na rota `/`, a estrutura a ser renderizada será:
+O projeto `Olá, Mundo!` é uma plataforma de artigos desenvolvida para contar um pouco sobre quem sou eu e praticar um importante conceito em React, o `React-Router-DOM`.
 
-```
-<PaginaPadrao>
-    <Inicio />
-</PaginaPadrao>
-```
+## TECNOLOGIAS UTILIZADAS
 
-Já na rota `/sobre` a estrutura a ser rederizada será:
+- HTML5;
+- CSS3;
+- JAVASCRIPT;
+- NODE | REACT.
 
-```
-<PaginaPadrao>
-    <Sobre />
-</PaginaPadrao>
-```
+## IMAGEM DO PROJETO
 
+![Olá mundo Preview](/public/preview.png).
+
+## ACESSO AO PROJETO
+
+Você pode acessar o projeto através do link [https://olamundopontojs.vercel.app](https://olamundopontojs.vercel.app).

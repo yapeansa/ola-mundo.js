@@ -1,5 +1,5 @@
-import styles from './Rodape.module.css'
-import { ReactComponent as MarcaRegistrada } from '@/assets/marca_registrada.svg'
+import styles from './Rodape.module.css';
+import { ReactComponent as MarcaRegistrada } from '@/assets/marca_registrada.svg';
 
 const Rodape = () => {
     return (
@@ -7,7 +7,7 @@ const Rodape = () => {
             <MarcaRegistrada />
             Desenvolvido por Yago.
         </footer>
-    )
-}
+    );
+};
 
-export default Rodape
+export default Rodape;

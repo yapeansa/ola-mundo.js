@@ -1,7 +1,7 @@
-import styles from "./Menu.module.css"
-import MenuLink from "../MenuLink"
+import styles from "./Menu.module.css";
+import MenuLink from "../MenuLink";
 
-function Menu() {
+const Menu = () => {
     return (
         <header>
             <nav className={styles.navegacao}>
@@ -14,7 +14,7 @@ function Menu() {
 
             </nav>
         </header>
-    )
-}
+    );
+};
 
-export default Menu
+export default Menu;

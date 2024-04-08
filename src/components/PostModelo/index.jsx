@@ -1,4 +1,4 @@
-import styles from  './PostModelo.module.css'
+import styles from  './PostModelo.module.css';
 
 const PostModelo = ({ fotoCapa, titulo, children }) => {
     return (
@@ -13,7 +13,7 @@ const PostModelo = ({ fotoCapa, titulo, children }) => {
                 {children}
             </div>
         </article>
-    )
-}
+    );
+};
 
-export default PostModelo
+export default PostModelo;
